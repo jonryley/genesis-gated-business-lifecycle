@@ -1,4 +1,8 @@
-# Genesis Arc                          <img width="80" height="21" alt="JR Logo no JR" src="https://github.com/user-attachments/assets/83065a1b-b33f-42eb-a8e2-303ee2db77f9" />
+# Genesis Arc                         <p align="right">
+  <a href="https://jonryley.com">
+    <img width="160" height="42" alt="JR Logo" src="https://github.com/user-attachments/assets/83065a1b-b33f-42eb-a8e2-303ee2db77f9" />
+  </a>
+</p>
 
 ## The Gated Business Lifecycle
 
