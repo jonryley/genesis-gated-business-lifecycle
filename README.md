@@ -1,6 +1,8 @@
 # genesis-gated-business-lifecycle
 A gated operating model for scaling revenue, delivery, and customer growth
 
+<img width="800" height="2000" alt="image" src="https://github.com/user-attachments/assets/7a4aedaa-c87c-44bd-a9a5-07e27713fff9" />
+
 Most organisations do not lack activity.
 They lack structure.
 
