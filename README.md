@@ -4,6 +4,7 @@
     <img width="160" height="42" alt="JR Logo" src="https://github.com/user-attachments/assets/83065a1b-b33f-42eb-a8e2-303ee2db77f9" />
   </a>
 </p>
+
 # Genesis Arc 
 ## The Gated Business Lifecycle
 
