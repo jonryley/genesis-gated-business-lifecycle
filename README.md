@@ -18,7 +18,7 @@ Genesis Arc solves this.
 
 ---
 
-## The Genesis Gated Business Lifecycle
+## The Genesis Arc Gated Business Lifecycle
 
 **Signal**  
 Spot real opportunities  
