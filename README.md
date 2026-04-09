@@ -1,7 +1,7 @@
 # Genesis Arc  
 ## The Gated Business Lifecycle
 
-<img width="800" height="2000" alt="image" src="https://github.com/user-attachments/assets/7a4aedaa-c87c-44bd-a9a5-07e27713fff9" />
+<img width="781" height="1537" alt="Jon Ryley Genesis Arc GBL no top brand" src="https://github.com/user-attachments/assets/f5ddba99-cef2-4c31-8e59-2c3421cb46e1" />
 
 ---
 
