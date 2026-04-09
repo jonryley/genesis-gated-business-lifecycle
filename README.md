@@ -107,10 +107,16 @@ If it doesn’t pass the gate, it doesn’t move
 
 ## Implementation
 
-The Genesis Arc lifecycle is designed to be implemented within real organisations.
+Most organisations don’t fail because of strategy  
+They fail in execution  
 
-Most organisations understand the theory  
-Few execute it with discipline  
+Pipeline looks healthy  
+Forecasts look strong  
+But deals stall, slip, or disappear  
+
+Genesis Arc fixes that  
+
+It introduces structure, discipline, and control across the full commercial lifecycle  
 
 Full implementation includes:
 
@@ -120,6 +126,9 @@ Full implementation includes:
 - AI-enabled insight and forecasting  
 - Leadership alignment and operating rhythm  
 
-For organisations looking to implement Genesis Arc:
+If it doesn’t pass the gate  
+It doesn’t move  
+
+For organisations ready to move from activity to outcomes:
 
 👉 https://jonryley.com
