@@ -4,193 +4,107 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Genesis Arc | The Gated Business Lifecycle</title>
+<title>Genesis Arc</title>
 
 <style>
-:root {
-  --bg: #080808;
-  --text: #f6f3ea;
-  --muted: #c2b9a3;
-  --gold: #d4af37;
-}
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  background: #0a0a0a;
+  color: #fff;
 }
 
-/* NAV */
-.nav {
+/* HEADER */
+.header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
 }
 
 .logo img {
   height: 64px;
+  margin-right: 20px;
 }
 
-.nav-links {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.button {
-  padding: 10px 16px;
-  border-radius: 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.primary {
-  background: var(--gold);
-  color: #000;
-}
-
-.secondary {
-  border: 1px solid #fff;
-}
-
-/* HERO */
+/* CONTAINER */
 .container {
   max-width: 1100px;
   margin: auto;
   padding: 40px 20px;
 }
 
-h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+/* TITLE */
+.title {
+  margin-left: 5ch;
 }
 
-.lead {
-  color: var(--muted);
-  max-width: 600px;
-}
-
-/* IMAGE */
-.arc-wrapper {
+/* IMAGE SECTION */
+.mountain-wrap {
+  position: relative;
   margin-top: 40px;
-  padding: 12px;
-  background: rgba(255,255,255,0.03);
-  border-radius: 16px;
-  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .arc-image {
   width: 100%;
-  border-radius: 10px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
 }
 
-/* SECTIONS */
-.section {
-  margin-top: 60px;
+/* FOOTER TEXT */
+.footer-text {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .card {
-  background: rgba(255,255,255,0.03);
-  padding: 20px;
-  border-radius: 16px;
-  margin-bottom: 20px;
+  max-width: 48%;
 }
 
-/* CTA */
-.cta {
-  margin-top: 60px;
-  padding: 30px;
-  border-radius: 16px;
-  background: rgba(255,255,255,0.04);
-}
-
-footer {
-  margin-top: 60px;
-  padding: 20px;
-  text-align: center;
-  color: var(--muted);
+.card h3 {
+  color: #d4af37;
 }
 </style>
 </head>
 
 <body>
 
-<!-- NAV -->
-<div class="nav">
+<!-- HEADER -->
+<div class="header">
   <div class="logo">
     <img src="./JR%20LOGO%20white.png" alt="Jon Ryley">
   </div>
-
-  <div class="nav-links">
-    <a href="#model">Model</a>
-    <a href="#stages">Stages</a>
-    <a href="#implement">Implement</a>
-    <a class="button secondary" href="https://github.com/jonryley/genesis-gated-business-lifecycle">GitHub</a>
-  </div>
 </div>
 
-<!-- HERO -->
+<!-- CONTENT -->
 <div class="container">
 
-<h1>Genesis Arc</h1>
-<p class="lead">
-The Gated Business Lifecycle — aligning signal to scalable growth through disciplined progression.
-</p>
+<h1 class="title">Genesis Arc</h1>
+<p class="title">The Gated Business Lifecycle</p>
 
-<div class="arc-wrapper">
+<!-- IMAGE REPLACEMENT -->
+<div class="mountain-wrap">
   <img src="./Genesis-arc.png" alt="Genesis Arc Lifecycle" class="arc-image">
 </div>
 
-<!-- WHY -->
-<div class="section">
-  <h2>Why it matters</h2>
+<!-- BOTTOM TEXT -->
+<div class="footer-text">
 
   <div class="card">
-    <strong>Clarity</strong>
-    <p>Every stage has purpose. Every gate enforces discipline.</p>
+    <h3>Core Principle</h3>
+    <p>Gates create truth. Truth creates growth.</p>
   </div>
 
   <div class="card">
-    <strong>Control</strong>
-    <p>No more false pipeline movement or optimism-driven forecasting.</p>
+    <h3>Jon Ryley Lens</h3>
+    <p>Scaling mountains taught patience. Scaling sales demanded structure.</p>
   </div>
 
-  <div class="card">
-    <strong>Growth</strong>
-    <p>Delivery becomes expansion. Customers become advocates.</p>
-  </div>
-</div>
-
-<!-- STAGES -->
-<div class="section" id="stages">
-  <h2>The Lifecycle</h2>
-
-  <div class="card"><strong>1. Qualify</strong><br>Only pursue what can be won</div>
-  <div class="card"><strong>2. Value</strong><br>Make the outcome undeniable</div>
-  <div class="card"><strong>3. Convert</strong><br>Control the deal. Close with certainty</div>
-  <div class="card"><strong>4. Grow</strong><br>Deliver value that expands the relationship</div>
-  <div class="card"><strong>5. Amplify</strong><br>Turn success into scalable growth</div>
-</div>
-
-<!-- CTA -->
-<div class="cta" id="implement">
-  <h2>Implement Genesis Arc</h2>
-  <p>
-    The public model shows the structure. Full implementation embeds this into CRM, pipeline, leadership rhythm, and AI-enabled growth.
-  </p>
-
-  <a class="button primary" href="https://jonryley.com/contact">
-    Start a conversation
-  </a>
 </div>
 
 </div>
-
-<footer>
-Genesis Arc • Scaling mountains. Scaling sales.
-</footer>
 
 </body>
 </html>
