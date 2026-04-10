@@ -38,15 +38,33 @@
     .container { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
 
     .topbar {
-      position: sticky; top: 0; z-index: 30;
+      position: sticky;
+      top: 0;
+      z-index: 30;
       background: rgba(8,8,8,0.72);
       backdrop-filter: blur(14px);
       border-bottom: 1px solid rgba(255,255,255,0.06);
+      overflow: visible;
     }
     .nav {
-      display: flex; justify-content: space-between; align-items: center; gap: 22px; padding: 16px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 22px;
+      padding: 18px 0;
+      min-height: 92px;
+      overflow: visible;
     }
-    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+      position: relative;
+      z-index: 5;
+      overflow: visible;
+      flex-shrink: 0;
+    }
     .brand-badge {
       display: none;
     }
@@ -243,6 +261,32 @@
       .hero-panel { min-height: 720px; }
     }
 
+    @media (max-width: 900px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .nav-links {
+        width: 100%;
+      }
+      .brand img {
+        height: 52px !important;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .nav-links {
+        width: 100%;
+      }
+      .brand img {
+        height: 52px !important;
+      }
+    }
+
     @media (max-width: 720px) {
       .nav { align-items: flex-start; }
       .nav-links { gap: 12px; }
@@ -271,7 +315,7 @@
   <div class="topbar">
     <div class="container nav">
       <a class="brand" href="#top">
-        <img src="jr-logo-white.png" alt="Jon Ryley" style="height:128px; width:auto; display:block;" />
+        <img src="jr-logo-white.png" alt="Jon Ryley" style="height:64px; max-height:none; width:auto; display:block; object-fit:contain; position:relative; z-index:6; flex-shrink:0;" />
         <div class="brand-copy">
           <strong>Genesis Arc</strong>
           <span>The Gated Business Lifecycle</span>
