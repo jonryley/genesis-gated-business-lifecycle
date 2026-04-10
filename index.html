@@ -189,8 +189,14 @@
       display: none;
     }
     .principle-panel {
-      position: absolute; left: 18px; bottom: 14px; right: 18px; display: flex; justify-content: space-between;
-      gap: 16px; align-items: end; flex-wrap: wrap; z-index: 3;
+      position: relative;
+      margin-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: stretch;
+      flex-wrap: wrap;
+      z-index: 3;
     }
     .principle-box, .mini-motto {
       padding: 14px 16px; border-radius: 18px; background: rgba(8,8,8,0.82); border: 1px solid rgba(255,255,255,0.08);
@@ -389,7 +395,8 @@
               <div class="pin-card"><strong>Amplify</strong><span>Turn customers into growth</span></div>
             </div>
 
-            <div class="principle-panel">
+            </div>
+          <div class="principle-panel">
               <div class="principle-box">
                 <strong>Core Principle</strong>
                 <span>Gates create truth. Truth creates growth.</span>
