@@ -298,7 +298,6 @@
       display: flex;
       align-items: center;
       gap: 8px;
-      transform: translate(-50%, -50%);
       z-index: 4;
       white-space: nowrap;
     }
@@ -615,14 +614,21 @@
       .mountain-wrap { height: 460px; margin-bottom: 180px; }
       .summit-label { right: 70px; }
 
-      .stage { gap: 6px; }
       .dot {
         width: 22px;
         height: 22px;
         font-size: 11px;
       }
+
       .label strong { font-size: 0.74rem; }
       .label span { font-size: 0.62rem; }
+
+      .stage.s0 { left: 65px !important; top: 440px !important; }
+      .stage.s1 { left: 150px !important; top: 365px !important; }
+      .stage.s2 { left: 255px !important; top: 290px !important; }
+      .stage.s3 { left: 360px !important; top: 215px !important; }
+      .stage.s4 { left: 465px !important; top: 140px !important; }
+      .stage.s5 { left: 585px !important; top: 75px !important; }
     }
   </style>
 </head>
@@ -703,7 +709,7 @@
 
             <div class="summit-label">Summit: Scalable Growth</div>
 
-            <div class="stage" style="left:80px; top:520px;">
+            <div class="stage s0" style="left:65px; top:505px;">
               <div class="dot">0</div>
               <div class="label">
                 <strong>Signal</strong>
@@ -711,7 +717,7 @@
               </div>
             </div>
 
-            <div class="stage" style="left:200px; top:430px;">
+            <div class="stage s1" style="left:185px; top:415px;">
               <div class="dot">1</div>
               <div class="label">
                 <strong>Qualify</strong>
@@ -719,7 +725,7 @@
               </div>
             </div>
 
-            <div class="stage" style="left:350px; top:340px;">
+            <div class="stage s2" style="left:335px; top:325px;">
               <div class="dot">2</div>
               <div class="label">
                 <strong>Value</strong>
@@ -727,7 +733,7 @@
               </div>
             </div>
 
-            <div class="stage" style="left:500px; top:250px;">
+            <div class="stage s3" style="left:485px; top:235px;">
               <div class="dot">3</div>
               <div class="label">
                 <strong>Convert</strong>
@@ -735,7 +741,7 @@
               </div>
             </div>
 
-            <div class="stage" style="left:650px; top:160px;">
+            <div class="stage s4" style="left:635px; top:145px;">
               <div class="dot">4</div>
               <div class="label">
                 <strong>Grow</strong>
@@ -743,7 +749,7 @@
               </div>
             </div>
 
-            <div class="stage" style="left:820px; top:80px;">
+            <div class="stage s5" style="left:805px; top:65px;">
               <div class="dot">5</div>
               <div class="label">
                 <strong>Amplify</strong>
