@@ -150,31 +150,30 @@
       position: absolute;
       display: flex;
       align-items: center;
-      gap: 8px;
-      max-width: 180px;
-      z-index: 3;
+      gap: 10px;
+      transform: translate(-50%, 50%);
+      white-space: nowrap;
     }
     .stage-pin.reverse { flex-direction: row-reverse; }
     .pin-dot {
-      width: 34px;
-      height: 34px;
-      border-radius: 8px;
-      border: 1px solid var(--gold);
-      background: #151515;
-      display: grid;
-      place-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      background: #d4af37;
+      color: #000;
       font-weight: 700;
-      font-size: 0.82rem;
-      color: var(--gold);
-      box-shadow: none;
-      flex: 0 0 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
     }
     .pin-card {
-      padding: 8px 10px;
-      border-radius: 10px;
-      background: rgba(8,8,8,0.88);
-      border: 1px solid rgba(255,255,255,0.08);
-      backdrop-filter: blur(4px);
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+      font-size: 13px;
+      color: #fff;
     }
     .pin-card strong {
       display: block;
