@@ -148,13 +148,16 @@
     }
     .stage-pin {
       position: absolute;
+      z-index: 3;
+    }
+    .pin-row {
+      position: absolute;
       display: flex;
       align-items: center;
       gap: 10px;
-      transform: translate(-50%, 50%);
+      transform: translateY(-50%);
       white-space: nowrap;
     }
-    .stage-pin.reverse { flex-direction: row-reverse; }
     .pin-dot {
       width: 32px;
       height: 32px;
@@ -167,6 +170,7 @@
       justify-content: center;
       font-size: 14px;
       flex-shrink: 0;
+      box-shadow: 0 0 0 3px rgba(8,8,8,0.65);
     }
     .pin-card {
       display: flex;
@@ -186,12 +190,6 @@
       color: var(--muted);
       font-size: 0.72rem;
       line-height: 1.25;
-    }
-    .gate-bar {
-      display: none;
-    }
-    .gate-bar::before {
-      display: none;
     }
     .principle-panel {
       position: absolute;
@@ -295,20 +293,18 @@
       .split { grid-template-columns: 1fr; }
       .quote { grid-template-columns: 1fr; }
       .hero-panel { min-height: 860px; padding: 20px; }
-      .mountain-wrap { height: 700px; }
-      .stage-pin { max-width: 180px; }
-      .stage-pin.reverse { flex-direction: row; }
-      .pin-dot { width: 30px; height: 30px; flex-basis: 30px; border-radius: 7px; font-size: 0.75rem; }
-      .pin-card strong { font-size: 0.8rem; }
-      .pin-card span { font-size: 0.68rem; }
+      .mountain-wrap { height: 700px; margin-bottom: 160px; }
+      .pin-dot { width: 28px; height: 28px; font-size: 12px; }
+      .pin-card strong { font-size: 0.76rem; }
+      .pin-card span { font-size: 0.64rem; }
       .summit-label { right: 18px; }
 
-      .signal { left: 2% !important; bottom: 5% !important; }
-      .qualify { left: 8% !important; bottom: 20% !important; }
-      .value { left: 17% !important; bottom: 35% !important; }
-      .convert { left: 28% !important; bottom: 49% !important; }
-      .grow { left: 40% !important; bottom: 63% !important; }
-      .amplify { left: 52% !important; bottom: 77% !important; right: auto !important; }
+      .signal { left: 10% !important; top: 88% !important; }
+      .qualify { left: 20% !important; top: 74% !important; }
+      .value { left: 31% !important; top: 60% !important; }
+      .convert { left: 42% !important; top: 46% !important; }
+      .grow { left: 54% !important; top: 31% !important; }
+      .amplify { left: 67% !important; top: 16% !important; }
     }
   </style>
 </head>
@@ -378,34 +374,46 @@
             </svg>
             <div class="summit-label">Summit: Scalable Growth</div>
 
-            <div class="stage-pin signal" style="left: 9%; bottom: 12%;">
-              <div class="pin-dot">0</div>
-              <div class="pin-card"><strong>Signal</strong><span>Spot real opportunities</span></div>
+            <div class="stage-pin signal" style="left: 9%; top: 88%;">
+              <div class="pin-row">
+                <div class="pin-dot">0</div>
+                <div class="pin-card"><strong>Signal</strong><span>Spot real opportunities</span></div>
+              </div>
             </div>
 
-            <div class="stage-pin qualify" style="left: 22%; bottom: 24%;">
-              <div class="pin-dot">1</div>
-              <div class="pin-card"><strong>Qualify</strong><span>Only pursue what can be won</span></div>
+            <div class="stage-pin qualify" style="left: 22%; top: 73%;">
+              <div class="pin-row">
+                <div class="pin-dot">1</div>
+                <div class="pin-card"><strong>Qualify</strong><span>Only pursue what can be won</span></div>
+              </div>
             </div>
 
-            <div class="stage-pin value" style="left: 37%; bottom: 38%;">
-              <div class="pin-dot">2</div>
-              <div class="pin-card"><strong>Value</strong><span>Define commercial impact</span></div>
+            <div class="stage-pin value" style="left: 37%; top: 58%;">
+              <div class="pin-row">
+                <div class="pin-dot">2</div>
+                <div class="pin-card"><strong>Value</strong><span>Define commercial impact</span></div>
+              </div>
             </div>
 
-            <div class="stage-pin convert" style="left: 52%; bottom: 50%;">
-              <div class="pin-dot">3</div>
-              <div class="pin-card"><strong>Convert</strong><span>Turn opportunity into revenue</span></div>
+            <div class="stage-pin convert" style="left: 52%; top: 43%;">
+              <div class="pin-row">
+                <div class="pin-dot">3</div>
+                <div class="pin-card"><strong>Convert</strong><span>Turn opportunity into revenue</span></div>
+              </div>
             </div>
 
-            <div class="stage-pin grow" style="left: 69%; bottom: 64%;">
-              <div class="pin-dot">4</div>
-              <div class="pin-card"><strong>Grow</strong><span>Deliver and expand</span></div>
+            <div class="stage-pin grow" style="left: 68%; top: 27%;">
+              <div class="pin-row">
+                <div class="pin-dot">4</div>
+                <div class="pin-card"><strong>Grow</strong><span>Deliver and expand</span></div>
+              </div>
             </div>
 
-            <div class="stage-pin amplify" style="left: 86%; bottom: 80%;">
-              <div class="pin-dot">5</div>
-              <div class="pin-card"><strong>Amplify</strong><span>Turn customers into growth</span></div>
+            <div class="stage-pin amplify" style="left: 85%; top: 12%;">
+              <div class="pin-row">
+                <div class="pin-dot">5</div>
+                <div class="pin-card"><strong>Amplify</strong><span>Turn customers into growth</span></div>
+              </div>
             </div>
           </div>
           <div class="principle-panel">
