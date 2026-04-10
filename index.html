@@ -48,10 +48,7 @@
     }
     .brand { display: flex; align-items: center; gap: 14px; }
     .brand-badge {
-      width: 42px; height: 42px; border-radius: 14px; display: grid; place-items: center;
-      color: var(--gold); border: 1px solid rgba(212,175,55,0.25);
-      background: linear-gradient(145deg, rgba(212,175,55,0.22), rgba(212,175,55,0.04));
-      font-weight: 800;
+      display: none;
     }
     .brand-copy strong { display: block; font-size: 0.94rem; letter-spacing: 0.1em; text-transform: uppercase; }
     .brand-copy span { display: block; font-size: 0.82rem; color: var(--muted); }
@@ -125,26 +122,53 @@
       color: var(--text); background: rgba(8,8,8,0.82); border: 1px solid rgba(212,175,55,0.18);
       font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; z-index: 3;
     }
-    .stage-pin { position: absolute; display: flex; align-items: center; gap: 12px; max-width: 240px; z-index: 3; }
+    .stage-pin {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      max-width: 180px;
+      z-index: 3;
+    }
     .stage-pin.reverse { flex-direction: row-reverse; }
     .pin-dot {
-      width: 56px; height: 56px; border-radius: 999px; border: 2px solid var(--gold); background: #151515;
-      display: grid; place-items: center; font-weight: 800; color: var(--gold); box-shadow: 0 0 0 12px rgba(212,175,55,0.06); flex: 0 0 56px;
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      border: 1px solid var(--gold);
+      background: #151515;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      font-size: 0.82rem;
+      color: var(--gold);
+      box-shadow: none;
+      flex: 0 0 34px;
     }
     .pin-card {
-      padding: 10px 12px; border-radius: 18px; background: rgba(8,8,8,0.84);
-      border: 1px solid rgba(255,255,255,0.08); backdrop-filter: blur(6px);
+      padding: 8px 10px;
+      border-radius: 10px;
+      background: rgba(8,8,8,0.88);
+      border: 1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(4px);
     }
-    .pin-card strong { display: block; font-size: 0.98rem; margin-bottom: 2px; }
-    .pin-card span { display: block; color: var(--muted); font-size: 0.84rem; line-height: 1.4; }
+    .pin-card strong {
+      display: block;
+      font-size: 0.86rem;
+      margin-bottom: 1px;
+      line-height: 1.2;
+    }
+    .pin-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.72rem;
+      line-height: 1.25;
+    }
     .gate-bar {
-      position: absolute; width: 78px; height: 5px; border-radius: 999px;
-      background: linear-gradient(90deg, transparent, var(--gold), transparent);
-      box-shadow: 0 0 24px rgba(212,175,55,0.18); z-index: 2;
+      display: none;
     }
     .gate-bar::before {
-      content: attr(data-gate); position: absolute; top: -24px; left: 50%; transform: translateX(-50%);
-      font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: #e8d185; white-space: nowrap;
+      display: none;
     }
     .principle-panel {
       position: absolute; left: 18px; bottom: 14px; right: 18px; display: flex; justify-content: space-between;
@@ -229,9 +253,9 @@
       .mountain-wrap { height: 700px; }
       .stage-pin { max-width: 180px; }
       .stage-pin.reverse { flex-direction: row; }
-      .pin-dot { width: 48px; height: 48px; flex-basis: 48px; }
-      .pin-card strong { font-size: 0.9rem; }
-      .pin-card span { font-size: 0.78rem; }
+      .pin-dot { width: 30px; height: 30px; flex-basis: 30px; border-radius: 7px; font-size: 0.75rem; }
+      .pin-card strong { font-size: 0.8rem; }
+      .pin-card span { font-size: 0.68rem; }
       .summit-label { right: 18px; }
 
       .signal { left: 2% !important; bottom: 5% !important; }
@@ -240,12 +264,6 @@
       .convert { left: 28% !important; bottom: 49% !important; }
       .grow { left: 40% !important; bottom: 63% !important; }
       .amplify { left: 52% !important; bottom: 77% !important; right: auto !important; }
-
-      .gate1 { left: 16% !important; bottom: 20% !important; }
-      .gate2 { left: 29% !important; bottom: 35% !important; }
-      .gate3 { left: 43% !important; bottom: 49% !important; }
-      .gate4 { left: 57% !important; bottom: 63% !important; }
-      .gate5 { left: 70% !important; bottom: 77% !important; }
     }
   </style>
 </head>
@@ -253,7 +271,7 @@
   <div class="topbar">
     <div class="container nav">
       <a class="brand" href="#top">
-        <div class="brand-badge">GA</div>
+        <img src="jr-logo-white.png" alt="Jon Ryley" style="height:32px; width:auto; display:block;" />
         <div class="brand-copy">
           <strong>Genesis Arc</strong>
           <span>The Gated Business Lifecycle</span>
@@ -319,32 +337,22 @@
               <div class="pin-dot">0</div>
               <div class="pin-card"><strong>Signal</strong><span>Spot real opportunities</span></div>
             </div>
-            <div class="gate-bar gate1" data-gate="Gate 1" style="left: 18%; bottom: 18%; transform: rotate(-34deg);"></div>
-
             <div class="stage-pin qualify" style="left: 17%; bottom: 17%;">
               <div class="pin-dot">1</div>
               <div class="pin-card"><strong>Qualify</strong><span>Only pursue what can be won</span></div>
             </div>
-            <div class="gate-bar gate2" data-gate="Gate 2" style="left: 34%; bottom: 33%; transform: rotate(-33deg);"></div>
-
             <div class="stage-pin value" style="left: 32%; bottom: 31%;">
               <div class="pin-dot">2</div>
               <div class="pin-card"><strong>Value</strong><span>Define commercial impact</span></div>
             </div>
-            <div class="gate-bar gate3" data-gate="Gate 3" style="left: 50%; bottom: 46%; transform: rotate(-33deg);"></div>
-
             <div class="stage-pin convert" style="left: 48%; bottom: 45%;">
               <div class="pin-dot">3</div>
               <div class="pin-card"><strong>Convert</strong><span>Turn opportunity into revenue</span></div>
             </div>
-            <div class="gate-bar gate4" data-gate="Gate 4" style="left: 66%; bottom: 61%; transform: rotate(-31deg);"></div>
-
             <div class="stage-pin grow" style="left: 64%; bottom: 60%;">
               <div class="pin-dot">4</div>
               <div class="pin-card"><strong>Grow</strong><span>Deliver and expand</span></div>
             </div>
-            <div class="gate-bar gate5" data-gate="Gate 5" style="left: 80%; bottom: 76%; transform: rotate(-29deg);"></div>
-
             <div class="stage-pin reverse amplify" style="right: 2%; bottom: 75%;">
               <div class="pin-dot">5</div>
               <div class="pin-card"><strong>Amplify</strong><span>Turn customers into growth</span></div>
@@ -455,7 +463,7 @@
             <p>The public model shows the architecture. Full implementation embeds Genesis Arc across CRM, pipeline design, qualification, leadership operating rhythm, and AI-enabled commercial decision making.</p>
             <div class="hero-actions">
               <a class="button primary" href="https://jonryley.com" target="_blank" rel="noreferrer">Visit jonryley.com</a>
-              <a class="button secondary" href="https://jonryley.com" target="_blank" rel="noreferrer">Start a conversation</a>
+              <a class="button secondary" href="https://jonryley.com/contact" target="_blank" rel="noreferrer">Start a conversation</a>
             </div>
           </div>
           <div class="cta-box">
