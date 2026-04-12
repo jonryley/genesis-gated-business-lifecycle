@@ -29,7 +29,7 @@ Instead:
 ## Sector Benefits
 
 ### Financial Services  
-*Example: Evelyn Partners*
+*Example: Wealth Advisory
 
 - Increased conversion of high-value clients and AUM growth  
 - Clear lead-to-adviser handoffs with stage-gate discipline  
@@ -40,7 +40,7 @@ Instead:
 ---
 
 ### Energy & Net Zero  
-*Example: D2Zero*
+*Example: Net Zero 
 
 - Align complex solutions to real customer value drivers  
 - Improve win rates on large, multi-stakeholder deals  
