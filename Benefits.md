@@ -1,124 +1,102 @@
-Each stage creates clarity  
-Each gate enforces discipline  
-Together they deliver growth  
+# Genesis Arc
+## Turning Sales into a Scalable Growth Engine
+
+**High trust. High-quality data. High-speed execution.**
+
+Genesis Arc applies a gated business lifecycle to ensure every opportunity is qualified, shaped, converted, and expanded with discipline.
 
 ---
 
-## Example: Applying the Gated Business Lifecycle
+## Why It Matters
 
-### Stage 0 — Signal
-**Objective:** Identify real opportunities early  
+Most organisations don’t have a pipeline problem.  
+They have a **clarity and execution problem.**
 
-**Activities**
-- Client contact or inbound signal  
-- Market or account insight  
-- Early stakeholder engagement  
+Genesis Arc fixes that.
 
-**Output**
-- Opportunity identified  
-- Initial access established  
+- No more wasted effort on unwinnable deals  
+- No more CRM as a passive database  
+- No more late-stage surprises  
 
----
+Instead:
 
-### Stage 1 — Qualify
-**Objective:** Focus only on opportunities that can be won  
-
-**Key Questions**
-- Is it real?  
-- Is it worth it?  
-- Can we win it?  
-- Can we deliver it?  
-
-**Activities**
-- Quick qualification  
-- CRM record created  
-- Stakeholder mapping  
-
-**Gate Criteria**
-- Clear problem defined  
-- Buyer identified  
-- Commercial viability confirmed  
-
-**Output**
-- Qualified opportunity  
-- Approved to progress  
+- Clear qualification  
+- Structured value creation  
+- Predictable revenue growth  
 
 ---
 
-### Stage 2 — Value
-**Objective:** Define and shape the commercial outcome  
+## Sector Benefits
 
-**Activities**
-- Develop value proposition  
-- Build cost and delivery model  
-- Assess risks and dependencies  
-- Create commercial roadmap  
+### Financial Services  
+*Example: Evelyn Partners*
 
-**Gate Criteria**
-- Value case clearly defined  
-- Solution aligned to need  
-- Resources approved  
-
-**Output**
-- Developed opportunity  
-- Go / No-Go decision confirmed  
+- Increased conversion of high-value clients and AUM growth  
+- Clear lead-to-adviser handoffs with stage-gate discipline  
+- Improved visibility from MQL to revenue  
+- Stronger client engagement through structured journeys  
+- Reduced leakage between marketing and front office  
 
 ---
 
-### Stage 3 — Convert
-**Objective:** Convert opportunity into contracted revenue  
+### Energy & Net Zero  
+*Example: D2Zero*
 
-**Activities**
-- Proposal or tender submission  
-- Commercial negotiation  
-- Legal and contractual alignment  
-- Closing plan execution  
-
-**Gate Criteria**
-- Offer accepted  
-- Commercial agreement reached  
-- Contract signed  
-
-**Output**
-- Closed Won or Closed Lost  
-- Transition to delivery  
+- Align complex solutions to real customer value drivers  
+- Improve win rates on large, multi-stakeholder deals  
+- Structure transition from CapEx to OpEx models  
+- Accelerate Net Zero commercialisation  
+- Create repeatable, scalable propositions  
 
 ---
 
-### Stage 4 — Grow
-**Objective:** Deliver value and expand the relationship  
+### Defence & Security  
+*Example: QinetiQ*
 
-**Activities**
-- Mobilisation and onboarding  
-- Delivery execution  
-- KPI and performance tracking  
-- Identify expansion opportunities  
-
-**Gate Criteria**
-- Value delivered against expectations  
-- Customer engagement maintained  
-- Expansion opportunities identified  
-
-**Output**
-- Active delivery  
-- Growth pipeline created  
+- Stronger qualification in long, complex sales cycles  
+- Clear stakeholder mapping across government and primes  
+- Improved bid quality and win probability  
+- Reduced cost of pursuit  
+- Better alignment between BD, capture, and delivery  
 
 ---
 
-### Stage 5 — Amplify
-**Objective:** Turn delivery into scalable growth  
+### Rail & Infrastructure  
+*Example: Telent*
 
-**Activities**
-- Capture customer satisfaction  
-- Develop case studies  
-- Enable referrals and advocacy  
-- Expand services and accounts  
+- Cleaner pipelines with real, winnable opportunities  
+- Faster, more effective bid and tender processes  
+- Improved positioning in framework and Opex-led models  
+- Better integration of CRM, bid teams, and delivery  
+- Stronger customer relationships across long asset lifecycles  
 
-**Gate Criteria**
-- Customer is referenceable  
-- Measurable value achieved  
-- Repeat or expansion business secured  
+---
 
-**Output**
-- Advocacy established  
-- Repeatable growth enabled  
+## What Changes
+
+With Genesis Arc in place:
+
+- Pipeline becomes **credible, not inflated**  
+- CRM becomes a **decision engine, not a record system**  
+- Sales teams focus on **winning, not chasing**  
+- Leadership gains **real visibility and control**  
+
+---
+
+## The Result
+
+- Higher win rates  
+- Faster deal cycles  
+- Increased revenue predictability  
+- Scalable growth across sectors  
+
+---
+
+## The Principle
+
+> If it doesn’t meet the gate  
+> it doesn’t progress  
+
+---
+
+## The Lifecycle
