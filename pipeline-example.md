@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Genesis Arc Example  
+# Summit Example  
 ## Applying the Gated Business Lifecycle
 
 This example shows how opportunities move through Genesis Arc — from initial signal to scalable growth.
@@ -98,7 +98,7 @@ Convert opportunity into contracted revenue
 
 ---
 
-## Stage 4 — Grow
+## Stage 4 — Deliver
 
 **Objective**  
 Deliver value and expand the relationship  
@@ -151,7 +151,7 @@ it does not progress
 
 ## Summary Flow
 
-Signal → Qualify → Value → Convert → Grow → Amplify  
+Signal → Qualify → Value → Convert → Deliver → Amplify  
 
 Each stage introduces clarity  
 Each gate enforces discipline  
