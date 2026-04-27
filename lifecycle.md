@@ -4,10 +4,10 @@
   </a>
 </p>
 
-# Genesis Arc  
+# Summit
 ## The Gated Business Lifecycle
 
-The Genesis Arc lifecycle defines how organisations identify, win, deliver, and scale revenue.
+The Summit lifecycle defines how organisations identify, win, deliver, and scale revenue.
 
 It aligns sales, delivery, and leadership through clear stages and enforced gates.
 
@@ -123,7 +123,7 @@ Convert opportunity into contracted revenue
 
 ---
 
-## Stage 4 — Grow
+## Stage 4 — Deliver
 
 **Purpose**  
 Deliver value and expand the relationship  
