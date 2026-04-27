@@ -21,11 +21,11 @@ Value is unclear
 Execution drifts  
 Growth is inconsistent  
 
-Genesis Arc solves this.
+Summit solves this.
 
 ---
 
-## The Genesis Arc Gated Business Lifecycle
+## The Summit Gated Business Lifecycle
 
 **Signal**  
 Spot real opportunities  
