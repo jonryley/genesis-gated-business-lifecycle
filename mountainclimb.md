@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Genesis Arc Example  
+# Summit Example  
 ## Walking a Mountain
 
 Each stage creates clarity  
@@ -100,7 +100,7 @@ Together they get you to the summit safely
 
 ---
 
-## Stage 4 — Grow
+## Stage 4 — Deliver
 
 **Objective:** Descend safely and consolidate the experience  
 
