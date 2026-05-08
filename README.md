@@ -41,14 +41,14 @@ Kill weak deals early
 
 ---
 
-**Value**  
+**Shape**  
 Define the commercial impact  
 Make the outcome undeniable  
 Align solution to real business need  
 
 ---
 
-**Convert**  
+**Pursue**  
 Turn opportunity into revenue  
 Control the deal, don’t chase it  
 Secure clear commercial agreement  
