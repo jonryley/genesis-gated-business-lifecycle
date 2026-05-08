@@ -68,7 +68,7 @@ Ensure only winnable, valuable opportunities progress
 
 ---
 
-## Stage 2 — Value
+## Stage 2 — Shape
 
 **Purpose**  
 Define the commercial impact and shape the solution  
@@ -96,7 +96,7 @@ Define the commercial impact and shape the solution
 
 ---
 
-## Stage 3 — Convert
+## Stage 3 — Pursue
 
 **Purpose**  
 Convert opportunity into contracted revenue  
