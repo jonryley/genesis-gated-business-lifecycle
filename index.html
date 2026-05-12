@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Summit| The Gated Business Lifecycle</title>
-  <meta name="description" content="Summit is the gated business lifecycle for identifying, winning, delivering, and scaling revenue with discipline." />
+  <title>Summit Growth Engine | AI-Enabled Commercial Operating System</title>
+  <meta name="description" content="Summit Growth Engine is an AI-enabled commercial operating system for qualification, governance, forecasting, delivery alignment and scalable growth." />
+
   <style>
     :root {
       --bg: #080808;
@@ -29,8 +30,7 @@
       background:
         radial-gradient(circle at 12% 14%, rgba(212,175,55,0.12), transparent 18%),
         radial-gradient(circle at 88% 8%, rgba(212,175,55,0.08), transparent 16%),
-        radial-gradient(circle at 72% 78%, rgba(212,175,55,0.06), transparent 18%),
-        linear-gradient(180deg, #060606 0%, #0a0a0a 38%, #0d0d0d 100%);
+        linear-gradient(180deg, #060606 0%, #0a0a0a 45%, #0d0d0d 100%);
       line-height: 1.6;
       letter-spacing: 0.01em;
     }
@@ -46,7 +46,7 @@
       position: sticky;
       top: 0;
       z-index: 30;
-      background: rgba(8,8,8,0.72);
+      background: rgba(8,8,8,0.78);
       backdrop-filter: blur(14px);
       border-bottom: 1px solid rgba(255,255,255,0.06);
     }
@@ -63,32 +63,27 @@
     .brand {
       display: flex;
       align-items: center;
-      gap: 20px;
-      min-width: 0;
-      flex-shrink: 0;
+      gap: 18px;
     }
 
     .brand img {
-      height: 64px;
+      height: 58px;
       width: auto;
       display: block;
       object-fit: contain;
-      flex-shrink: 0;
     }
 
     .brand-copy strong {
       display: block;
-      font-size: 0.94rem;
+      font-size: 0.92rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      margin-left: 5ch;
     }
 
     .brand-copy span {
       display: block;
       font-size: 0.82rem;
       color: var(--muted);
-      margin-left: 5ch;
     }
 
     .nav-links {
@@ -106,13 +101,11 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
       padding: 13px 18px;
       border-radius: 999px;
       font-weight: 700;
-      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
       border: 1px solid transparent;
-      cursor: pointer;
+      transition: 0.2s ease;
     }
 
     .button:hover { transform: translateY(-1px); }
@@ -129,28 +122,10 @@
       color: var(--text);
     }
 
-    .button.secondary:hover {
-      border-color: rgba(212,175,55,0.25);
-      background: rgba(212,175,55,0.08);
-    }
-
     .hero {
       padding: 82px 0 46px;
       position: relative;
       overflow: hidden;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      right: -80px;
-      top: 40px;
-      width: 420px;
-      height: 420px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(212,175,55,0.13), transparent 60%);
-      pointer-events: none;
-      filter: blur(10px);
     }
 
     .hero-grid {
@@ -158,14 +133,10 @@
       grid-template-columns: 1.04fr 0.96fr;
       gap: 28px;
       align-items: stretch;
-      position: relative;
-      z-index: 1;
     }
 
     .eyebrow {
       display: inline-flex;
-      align-items: center;
-      gap: 10px;
       padding: 9px 13px;
       border-radius: 999px;
       background: var(--gold-soft);
@@ -187,7 +158,7 @@
       margin: 0 0 24px;
       font-size: 1.12rem;
       color: var(--muted);
-      max-width: 60ch;
+      max-width: 62ch;
     }
 
     .hero-actions {
@@ -231,20 +202,8 @@
     }
 
     .hero-panel {
-      position: relative;
       padding: 26px;
       overflow: hidden;
-      min-height: auto;
-    }
-
-    .hero-panel::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        linear-gradient(180deg, rgba(255,255,255,0.02), transparent 30%),
-        radial-gradient(circle at 75% 15%, rgba(212,175,55,0.10), transparent 26%);
-      pointer-events: none;
     }
 
     .panel-head {
@@ -253,14 +212,11 @@
       gap: 18px;
       align-items: start;
       margin-bottom: 20px;
-      position: relative;
-      z-index: 2;
     }
 
     .panel-head h2 {
       margin: 0 0 4px;
       font-size: 1.2rem;
-      letter-spacing: -0.02em;
     }
 
     .panel-head span {
@@ -274,11 +230,9 @@
       height: auto;
       display: block;
       border-radius: 18px;
-      position: relative;
-      z-index: 2;
     }
 
-    section { padding: 30px 0; }
+    section { padding: 34px 0; }
 
     .section-head {
       margin-bottom: 18px;
@@ -321,12 +275,14 @@
       letter-spacing: 0.1em;
     }
 
-    .section-card h3 {
+    .section-card h3,
+    .stage-card h3 {
       margin: 0 0 10px;
       font-size: 1.2rem;
     }
 
-    .section-card p {
+    .section-card p,
+    .stage-card p {
       margin: 0 0 14px;
       color: var(--muted);
     }
@@ -366,16 +322,6 @@
       color: var(--gold);
       font-weight: 800;
       flex: 0 0 42px;
-    }
-
-    .stage-card h3 {
-      margin: 0;
-      font-size: 1.22rem;
-    }
-
-    .stage-card > p {
-      margin: 0 0 16px;
-      color: var(--muted);
     }
 
     .split {
@@ -446,7 +392,7 @@
       font-size: clamp(2rem, 3.2vw, 3rem);
       letter-spacing: -0.04em;
       line-height: 1.02;
-      max-width: 13ch;
+      max-width: 14ch;
     }
 
     .cta-card p {
@@ -484,6 +430,15 @@
       font-size: 0.92rem;
     }
 
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .cta-card,
+      .three-up,
+      .stages-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     @media (max-width: 900px) {
       .nav {
         align-items: flex-start;
@@ -497,20 +452,6 @@
       .brand img {
         height: 52px;
       }
-
-      .brand-copy strong,
-      .brand-copy span {
-        margin-left: 0;
-      }
-    }
-
-    @media (max-width: 1024px) {
-      .hero-grid,
-      .cta-card,
-      .three-up,
-      .stages-grid {
-        grid-template-columns: 1fr;
-      }
     }
 
     @media (max-width: 720px) {
@@ -520,14 +461,15 @@
     }
   </style>
 </head>
+
 <body>
   <div class="topbar">
     <div class="container nav">
       <a class="brand" href="#top">
-        <img src="./JR%20LOGO%20white.png" alt="Jon Ryley" />
+        <img src="images/JR%20LOGO%20white.png" alt="Jon Ryley" />
         <div class="brand-copy">
-          <strong>Summit</strong>
-          <span>The Gated Business Lifecycle</span>
+          <strong>Summit Growth Engine</strong>
+          <span>AI-Enabled Commercial Operating System</span>
         </div>
       </a>
 
@@ -536,9 +478,7 @@
         <a href="#stages">Stages</a>
         <a href="#why">Why it matters</a>
         <a href="#implement">Implement</a>
-<a class="button secondary" href="https://github.com/jonryley/summit-growth-engine" target="_blank" rel="noreferrer">
-  View Summit GBL
-</a>
+        <a class="button secondary" href="pipeline.html">Open Pipeline</a>
       </div>
     </div>
   </div>
@@ -548,28 +488,32 @@
       <div class="container hero-grid">
         <div>
           <div class="eyebrow">Premium Commercial Growth Framework</div>
-          <h1>Scaling mountains. Scaling sales.</h1>
+
+          <h1>Scaling mountains. Scaling growth.</h1>
+
           <p class="lead">
-           Summit is a premium operating model for identifying, winning, delivering, and scaling revenue with discipline. It aligns sales, delivery, and leadership through one commercial ascent from signal to amplify.
+            Summit transforms fragmented sales activity into a governed, AI-enabled commercial growth system.
+            It aligns sales, delivery, CRM, data, leadership and governance through one operating model.
           </p>
 
           <div class="hero-actions">
             <a class="button primary" href="#implement">Implement Summit</a>
-            <a class="button secondary" href="#stages">Explore the lifecycle</a>
+            <a class="button secondary" href="pipeline.html">Open the Pipeline Demo</a>
+            <a class="button secondary" href="https://github.com/jonryley/summit-growth-engine" target="_blank" rel="noreferrer">View GitHub</a>
           </div>
 
           <div class="proof-strip">
             <div class="proof">
-              <strong>5 stages</strong>
-              <span>A complete lifecycle from opportunity signal to customer advocacy</span>
+              <strong>6 stages</strong>
+              <span>From early signal to customer advocacy and amplified growth</span>
             </div>
             <div class="proof">
-              <strong>5 gates</strong>
-              <span>Decision points that create discipline, clarity, and control</span>
+              <strong>Gated</strong>
+              <span>Decision points that create discipline, clarity and control</span>
             </div>
             <div class="proof">
               <strong>1 rhythm</strong>
-              <span>Shared commercial structure across sales, delivery, and leadership</span>
+              <span>Shared commercial structure across sales, delivery and leadership</span>
             </div>
           </div>
         </div>
@@ -578,14 +522,14 @@
           <div class="panel-head">
             <div>
               <h2>The Summit Ascent</h2>
-              <span>From signal to amplify through stage clarity and gated progression</span>
+              <span>Signal → Qualify → Shape → Convert → Deliver → Amplify</span>
             </div>
             <div style="text-align:right; color:var(--muted); font-size:0.84rem; max-width:18ch;">
               If it does not pass the gate, it does not move.
             </div>
           </div>
 
-          <img src="./SAGBL.png" alt="Summit Lifecycle" class="arc-image" />
+          <img src="images/SAGBL.png" alt="Summit Lifecycle" class="arc-image" />
         </div>
       </div>
     </section>
@@ -597,7 +541,8 @@
             <h2>Why Summit exists</h2>
           </div>
           <p>
-            Most organisations do not lack effort. They lack commercial structure. Too many weak opportunities enter the pipeline, value stays unclear, delivery becomes separate from growth, and leadership loses visibility.
+            Most organisations do not have a sales problem. They have a qualification, governance,
+            forecasting and execution problem.
           </p>
         </div>
 
@@ -605,33 +550,33 @@
           <article class="section-card">
             <span class="eyeline">Clarity</span>
             <h3>Progression with purpose</h3>
-            <p>Every stage exists for a reason. Every gate protects focus, time, and commercial momentum.</p>
+            <p>Every stage exists for a reason. Every gate protects focus, time and commercial momentum.</p>
             <ul>
               <li>Stronger pipeline quality</li>
               <li>Cleaner forecasting</li>
-              <li>More disciplined resource decisions</li>
+              <li>Evidence-based progression</li>
             </ul>
           </article>
 
           <article class="section-card">
             <span class="eyeline">Control</span>
             <h3>No false movement</h3>
-            <p>Summit stops opportunities drifting forward on hope, politics, or inflated optimism.</p>
+            <p>Summit stops opportunities drifting forward on hope, politics or inflated optimism.</p>
             <ul>
               <li>Defined gate criteria</li>
               <li>Earlier disqualification</li>
-              <li>Sharper commercial decision making</li>
+              <li>Sharper commercial decisions</li>
             </ul>
           </article>
 
           <article class="section-card">
             <span class="eyeline">Growth</span>
             <h3>Delivery becomes expansion</h3>
-            <p>The best businesses do not separate winning from delivery. They grow through delivery and amplify through advocacy.</p>
+            <p>The best businesses do not separate winning from delivery. They grow through delivery.</p>
             <ul>
               <li>Value realisation</li>
               <li>Expansion pipeline creation</li>
-              <li>Repeatable commercial growth</li>
+              <li>Repeatable growth</li>
             </ul>
           </article>
         </div>
@@ -642,33 +587,58 @@
       <div class="container">
         <div class="section-head">
           <div>
-            <h2>The five stages</h2>
+            <h2>The six stages</h2>
           </div>
           <p>
-            The commercial core of Summit moves from qualification to scalable growth.
+            Summit moves from early commercial signal to qualified opportunity, shaped value,
+            controlled conversion, successful delivery and amplified growth.
           </p>
         </div>
 
         <div class="stages-grid">
           <article class="stage-card">
             <div class="stage-top">
+              <div class="stage-num">0</div>
+              <h3>Signal</h3>
+            </div>
+            <p>Identify real opportunity signals early.</p>
+            <div class="split">
+              <div class="mini">
+                <strong>Focus</strong>
+                <ul>
+                  <li>Market triggers</li>
+                  <li>Customer insight</li>
+                  <li>Early intelligence</li>
+                </ul>
+              </div>
+              <div class="mini">
+                <strong>Tagline</strong>
+                <ul>
+                  <li>Find the opportunity before the market moves</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="stage-card">
+            <div class="stage-top">
               <div class="stage-num">1</div>
               <h3>Qualify</h3>
             </div>
-            <p>Only pursue what can be won.</p>
+            <p>Only pursue what can be won and delivered.</p>
             <div class="split">
               <div class="mini">
                 <strong>Focus</strong>
                 <ul>
                   <li>Truth over optimism</li>
                   <li>Quality over volume</li>
-                  <li>Early disqualification</li>
+                  <li>Fast disqualification</li>
                 </ul>
               </div>
               <div class="mini">
                 <strong>Tagline</strong>
                 <ul>
-                  <li>Only pursue what can be won</li>
+                  <li>Only pursue what deserves pursuit</li>
                 </ul>
               </div>
             </div>
@@ -679,14 +649,14 @@
               <div class="stage-num">2</div>
               <h3>Shape</h3>
             </div>
-            <p>Make the outcome undeniable.</p>
+            <p>Build the commercial value, solution and delivery approach.</p>
             <div class="split">
               <div class="mini">
                 <strong>Focus</strong>
                 <ul>
-                  <li>Outcome over activity</li>
                   <li>Value clarity</li>
-                  <li>Alignment to business need</li>
+                  <li>Customer outcome</li>
+                  <li>Delivery alignment</li>
                 </ul>
               </div>
               <div class="mini">
@@ -701,22 +671,22 @@
           <article class="stage-card">
             <div class="stage-top">
               <div class="stage-num">3</div>
-              <h3>Pursue</h3>
+              <h3>Convert</h3>
             </div>
-            <p>Control the deal. Close with certainty.</p>
+            <p>Control the pursuit and convert the opportunity.</p>
             <div class="split">
               <div class="mini">
                 <strong>Focus</strong>
                 <ul>
-                  <li>Control the deal</li>
-                  <li>Progress with intent</li>
-                  <li>Secure commercial alignment</li>
+                  <li>Deal control</li>
+                  <li>Commercial alignment</li>
+                  <li>Close confidence</li>
                 </ul>
               </div>
               <div class="mini">
                 <strong>Tagline</strong>
                 <ul>
-                  <li>Control the deal. Close with certainty</li>
+                  <li>Control the deal. Close with certainty.</li>
                 </ul>
               </div>
             </div>
@@ -727,20 +697,20 @@
               <div class="stage-num">4</div>
               <h3>Deliver</h3>
             </div>
-            <p>Deliver value that expands the relationship.</p>
+            <p>Mobilise, execute and deliver successfully.</p>
             <div class="split">
               <div class="mini">
                 <strong>Focus</strong>
                 <ul>
                   <li>Execution excellence</li>
+                  <li>Delivery governance</li>
                   <li>Value realisation</li>
-                  <li>Expansion opportunity creation</li>
                 </ul>
               </div>
               <div class="mini">
                 <strong>Tagline</strong>
                 <ul>
-                  <li>Deliver value that expands the relationship</li>
+                  <li>Delivery starts before the sale closes</li>
                 </ul>
               </div>
             </div>
@@ -751,14 +721,14 @@
               <div class="stage-num">5</div>
               <h3>Amplify</h3>
             </div>
-            <p>Turn success into scalable growth.</p>
+            <p>Turn successful delivery into scalable growth.</p>
             <div class="split">
               <div class="mini">
                 <strong>Focus</strong>
                 <ul>
                   <li>Create advocacy</li>
                   <li>Build repeatability</li>
-                  <li>Accelerate growth from success</li>
+                  <li>Accelerate expansion</li>
                 </ul>
               </div>
               <div class="mini">
@@ -779,7 +749,7 @@
           <div class="quote-mark">JR</div>
           <div>
             <blockquote>Most businesses do not have a sales problem. They have a lifecycle problem.</blockquote>
-            <p>Symmit brings the structure, discipline, and momentum required to identify, win, deliver, and scale growth in the AI era.</p>
+            <p>Summit brings structure, governance and momentum to identify, win, deliver and scale growth in the AI era.</p>
           </div>
         </div>
       </div>
@@ -791,7 +761,8 @@
           <div>
             <h2>Implement Summit inside the real business.</h2>
             <p>
-              The public model shows the architecture. Full implementation embeds Genesis Arc across CRM, pipeline design, qualification, leadership operating rhythm, and AI-enabled commercial decision making.
+              The public model shows the architecture. Full implementation embeds Summit across CRM,
+              pipeline design, qualification, leadership cadence, delivery alignment and AI-enabled commercial decision making.
             </p>
             <div class="hero-actions">
               <a class="button primary" href="https://jonryley.com" target="_blank" rel="noreferrer">Visit jonryley.com</a>
@@ -802,11 +773,11 @@
           <div class="cta-box">
             <strong>Implementation includes</strong>
             <span>CRM and pipeline design</span>
-            <span>Qualification frameworks</span>
-            <span>Deal control and progression</span>
+            <span>Summit Qualification Engine</span>
+            <span>Commercial governance and gate controls</span>
             <span>AI-enabled insight and forecasting</span>
             <span>Leadership alignment and operating rhythm</span>
-            <a href="https://github.com/jonryley/genesis-gated-business-lifecycle" target="_blank" rel="noreferrer">Open the Genesis Arc GitHub repository</a>
+            <a href="https://github.com/jonryley/summit-growth-engine" target="_blank" rel="noreferrer">Open the Summit GitHub repository</a>
           </div>
         </div>
       </div>
@@ -815,7 +786,7 @@
 
   <footer>
     <div class="container">
-      Summit • Scaling mountains. Scaling sales. • Premium commercial growth framework
+      Summit Growth Engine • Gates create truth. Truth creates growth. • AI-enabled commercial operating system
     </div>
   </footer>
 </body>
